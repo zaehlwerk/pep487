@@ -31,9 +31,11 @@ will add their name to the common class variable 'foos'.
 >>> class Foo2(FooBase):
 ...     pass
 
-Now we have.
+Hence:
+
 >>> FooBase.foos
 {'Foo1', 'Foo2'}
+
 
 
 Property names and owner
@@ -51,10 +53,12 @@ of an PEP487Object class, it will be called:
 ...     foo = NamedProperty()
 ...     bar = NamedProperty()
 
-Now, we have:
+Consequently:
+
 >>> Bar.foo.name is 'foo' and Bar.foo.context is Bar
 True
 >>> Bar.bar.name is 'bar' and Bar.bar.context is Bar
+True
 
 
 Abstract base classes
