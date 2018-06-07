@@ -5,7 +5,6 @@
 # This is a backport of PEP487's simpler customisation of class
 # creation by Martin Teichmann <https://www.python.org/dev/peps/pep-0487/>
 # for Python versions before 3.6.
-# Note, PEP487 has been placed in the public domain.
 #
 # PEP487 is free software: you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published
